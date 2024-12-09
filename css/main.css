@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Unbounded:wght@200..900&display=swap");
 
 :root {
 }
@@ -304,101 +304,67 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 335px;
-  height: 752px;
-
-  border-radius: 24px;
+  width: 375px;
+  height: 746px;
   margin: auto;
-  background-image: url("/img/home/freepik_edit_Photos-of-tents-against-the-backdrop-of-nature-sle\ 1.png");
+  background-image: url("/image/hero/focused-attractive-man-glasses-is-chainging-wheel-bicycle-busy-workshop\ 1.png");
 }
 .home__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 124px;
+  padding-top: 100px;
 }
 .home__wrapper-two {
-  width: 335px;
-  height: 507px;
+  width: 375px;
+  height: 436px;
 
-  padding: 28px 12px 16px;
+  padding: 38px 20px 16px;
   gap: 8px;
-  border-radius: 0px 24px 24px 0px;
+
   opacity: 0px;
-  backdrop-filter: blur(10px);
+
   color: #ffffff;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .home-title {
-  font-family: Alexandria;
-  font-size: 48px;
+  font-family: "Unbounded", sans-serif;
+  font-size: 52px;
   font-weight: 800;
-  line-height: 56px;
-  text-align: left;
+  line-height: 60px;
+  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
 .home-text {
-  font-family: Alexandria;
-  font-size: 24px;
-  font-weight: 600;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
   line-height: 32px;
-  text-align: left;
+  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
   padding: 3px 0 28px;
 }
 .home-text-two {
-  font-family: Alexandria;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 24px;
-  text-align: left;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  color: #1f1f1f;
-  width: 311px;
-}
-.home__container-top {
-  display: flex;
-
-  flex-direction: column;
-  align-items: center;
-  gap: 24px;
-  padding-top: 40px;
-}
-.home__google-button_link {
-  width: 271px;
-  height: 60px;
-  padding: 16px 36px 16px 36px;
-  border-radius: 50px;
-  background: #ff422f;
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 28px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #ffffff;
-  text-decoration: none;
-}
-.home__google-button_link-two {
-  background: #ffffff;
-  box-shadow: 0px 4px 44px 0px #0000001a;
-  color: #303030;
 }
 
 @media screen and (min-width: 1200px) {
   .home {
     margin: auto;
-    width: 1304px;
-    height: 752px;
+    width: 1440px;
+    height: 800px;
 
-    border-radius: 24px;
-
-    background-image: url("/img/home/freepik_edit_Photos-of-tents-against-the-backdrop-of-nature-sle\ 1\ \(1\).png");
+    background-image: url("/image/hero/focused-attractive-man-glasses-is-chainging-wheel-bicycle-busy-workshop\ 1\ \(1\).png");
   }
   .home__wrapper {
     display: flex;
@@ -408,61 +374,43 @@ a {
     padding-top: 0;
   }
   .home__wrapper-two {
-    padding: 28px 12px 16px;
-    gap: 8px;
-    border-radius: 24px 24px;
-    opacity: 0px;
-    backdrop-filter: blur(10px);
-
-    padding: 288px 40px;
-    width: 691px;
-    height: 750px;
+    padding: 236px 0px 16px 100px;
+    width: 677px;
+    height: 800px;
   }
-
   .home-title {
-    font-family: Alexandria;
-    font-size: 52px;
-    font-weight: 800;
-    line-height: 64px;
+    font-family: "Unbounded", sans-serif;
+    font-size: 76px;
+    font-weight: 900;
+    line-height: 80px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
   .home-text {
-    font-family: Alexandria;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 44px;
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+
+    padding: 20px 0 28px;
   }
   .home-text-two {
-    font-family: Alexandria;
-    font-size: 20px;
+    font-family: DM Sans;
+    font-size: 24px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 32px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-
-    width: 513px;
-    height: 56px;
-    gap: 0px;
-    opacity: 0px;
-  }
-  .home__container-top {
-    display: flex;
-
-    flex-direction: row;
-    align-items: center;
-    gap: 24px;
-    padding-top: 40px;
   }
 }
 
 .about {
-  padding: 64px 20px;
+  padding: 64px 0px;
   width: 375px;
   background: #ffffff;
   margin: auto;
@@ -470,75 +418,75 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #303030;
+  color: #121212;
 }
 .about-title {
-  font-family: Alexandria;
+  font-family: Unbounded;
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 44px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #303030;
 }
 .about-text {
-  font-family: Alexandria;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 28px;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
-  padding-top: 32px;
+  padding: 32px 20px 40px;
+}
+.about-list {
+  width: 335px;
+}
+.about-item {
+  overflow: hidden;
+  position: relative;
+  /* width: 335px; */
+  height: 378px;
+  border-radius: 4px;
+  margin: 0px 10px;
+}
+.about-img {
+  height: 378px;
+  object-fit: cover;
+  object-position: center;
+
+  margin: auto;
 }
 
 .feature-list {
   display: flex;
   flex-direction: column;
-  align-items: start;
-  gap: 32px;
+  align-items: center;
 
-  padding-top: 60px;
-  padding-bottom: 44px;
+  width: 375px;
+  padding-top: 40px;
+  gap: 28px;
 }
 
 .feature {
-  padding: 12px 0px 12px 32px;
-  width: 303px;
+  padding: 8px 0px 0;
+  width: 335px;
 
-  font-family: Alexandria;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 24.38px;
-  text-align: left;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  border-left: 3px solid #fc351b;
-}
-.about-img {
-  width: 335px;
-  height: 426px;
 
-  border-radius: 28px;
+  border-top: 2px solid #d9d9d9;
 }
-.about-img-desk {
-  display: none;
-}
+
 @media screen and (min-width: 1200px) {
-  .about-img-desk {
-    display: block;
-    width: 788px;
-    height: 402px;
-
-    border-radius: 28px;
-  }
-  .about-img {
-    display: none;
-  }
   .about {
-    padding: 100px 68px;
+    padding: 100px 0;
     width: 1440px;
     background: #ffffff;
     margin: auto;
@@ -547,7 +495,7 @@ a {
     justify-content: center;
     flex-direction: column;
     color: #303030;
-    gap: 60px;
+    gap: 40px;
   }
   .about-container-top {
     display: flex;
@@ -557,45 +505,43 @@ a {
     width: 1304px;
   }
   .about-title {
-    font-family: Alexandria;
+    font-family: Unbounded;
     font-size: 48px;
-    font-weight: 800;
-    line-height: 52px;
-    text-align: center;
+    font-weight: 500;
+    line-height: 56px;
+    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
   .about-text {
-    font-family: Alexandria;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 28px;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
     text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
-    width: 788px;
-
-    padding-top: 0;
+    width: 694px;
+    padding: 4px;
+  }
+  .about-list {
+    width: 1440px;
+    padding: 0;
   }
 
-  .features-container {
+  .feature-list {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 44px;
-
-    width: 1304px;
-  }
-  .feature-list {
-    margin-right: 44px;
-    width: 472px;
+    padding: 0;
+    width: 1172px;
   }
 
   .feature {
-    width: 472px;
-
-    padding: 12px 0px 12px 32px;
+    width: 260px;
+    height: 56px;
   }
 }
 
@@ -603,7 +549,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 44px;
+  gap: 40px;
   margin-top: 32px;
 }
 
@@ -624,69 +570,76 @@ a {
 }
 
 .gallery-button-icon {
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
 }
 
 .gallery {
   margin: auto;
-  padding: 64px 0;
+  padding: 64px 20px;
   width: 375px;
-  color: #303030;
+  color: #121212;
+  background: #fff9e2;
 }
 .gallery-title {
-  font-family: Alexandria;
+  font-family: Unbounded;
   font-size: 36px;
-  font-weight: 800;
+  font-weight: 500;
   line-height: 44px;
   text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
-  color: #303030;
 
+  margin-bottom: 32px;
+}
+.gallery-title-text {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
   margin-bottom: 40px;
 }
 .gallery__list {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
 }
 
 .gallery__item {
-  background: transparent;
-  width: 335px;
-  height: 474px;
+  width: 343px;
+  height: 354px;
+  padding: 12px;
   margin: 10px;
   overflow: hidden;
   position: relative;
-  border-radius: 16px;
 }
 .gallery-avatar {
   object-fit: cover;
   object-position: center;
-  width: 335px;
-  height: 374px;
-}
-.gallery-avatar {
-  border-radius: 16px;
+  width: 319px;
+  height: 218px;
+
+  border-radius: 4px;
 }
 
 .gallery-item-title {
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 28px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
-  padding: 20px 0 4px;
+  padding: 20px 0 16px;
 }
 .gallery-text {
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 24px;
   text-align: left;
   text-underline-position: from-font;
@@ -694,119 +647,119 @@ a {
 }
 @media screen and (min-width: 1200px) {
   .gallery {
-    padding: 100px 68px;
+    padding: 100px;
     margin: auto;
     width: 1440px;
-    color: #303030;
   }
   .gallery-title {
-    font-family: Alexandria;
+    font-family: Unbounded;
     font-size: 48px;
-    font-weight: 800;
-    line-height: 52px;
+    font-weight: 500;
+    line-height: 56px;
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
 
-    margin-bottom: 60px;
+    margin-bottom: 32px;
+  }
+  .gallery-title-text {
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    padding: 0;
+    margin: 0;
   }
   .gallery__list {
     display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
-    width: 1305px;
+    width: 1144px;
   }
 
   .gallery__item {
     background: transparent;
-    width: 460px;
-    height: 454px;
-    margin: 20px;
+    width: 552px;
+    height: 412px;
+    padding: 12px;
   }
 
   .gallery-avatar {
-    width: 460px;
-    height: 374px;
-
-    border-radius: 16px;
+    width: 528px;
+    height: 276px;
   }
 }
 .blog {
   margin: 64px auto;
-  padding: 0 10px;
+  padding: 0 20px;
   width: 375px;
 }
-.blog-text {
-  font-family: Alexandria;
-  font-size: 20px;
-  font-weight: 300;
-  line-height: 28px;
-  text-align: center;
-  text-underline-position: from-font;
-  text-decoration-skip-ink: none;
-  width: 335px;
-  margin: auto;
-}
+
 .blog__list {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  margin: 0 auto;
   margin-top: 40px;
 }
+
 .blog-item {
-  width: 335px;
-  height: 264px;
+  width: 312px;
+  height: 500px;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  background: #fff9e2;
 }
 .blog-avatar {
-  width: 335px;
-  height: 160px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
 
-  border-radius: 16px 16px 0px 0px;
+  border-radius: 8px;
 }
 .blog-item-text {
-  padding: 0 20px;
+  padding: 0 24px;
 }
 
 @media screen and (min-width: 1200px) {
   .blog {
     margin: 100px auto 76px;
-    padding: 0 68px;
+    padding: 0 0;
     color: #303030;
     width: 1440px;
   }
-  .blog-text {
-    font-family: Alexandria;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 28px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
-    width: 444px;
-    margin: 0;
-  }
+
   .blog__list {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: auto;
+    margin: 0 auto;
+    margin-top: 40px;
   }
+
   .blog-item {
-    width: 412px;
-    height: 264px;
+    width: 564px;
+    height: 368px;
+    border-radius: 8px;
+    overflow: hidden;
+    position: relative;
+    background: #fff9e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
   }
   .blog-item-text {
     padding: 0 20px;
   }
   .blog-avatar {
-    width: 412px;
-    height: 160px;
-  }
-  .blog-container {
-    display: flex;
-    justify-content: space-between;
+    width: 312px;
+    height: 368px;
   }
 }
 
@@ -1271,15 +1224,15 @@ a {
   }
 }
 .footer {
-  background: #1d1d1d;
+  background: #313131;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 36px 72px;
-  gap: 52px;
+  padding: 36px 25px;
+  gap: 28px;
 }
 .footer-wrapper {
   display: flex;
@@ -1290,13 +1243,14 @@ a {
   gap: 20px;
 }
 .footer-text {
-  font-family: Alexandria;
-  font-size: 16px;
-  font-weight: 300;
-  line-height: 24px;
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   text-decoration: none;
   color: #f8f8f8;
 
@@ -1304,11 +1258,11 @@ a {
 }
 
 .footer-copyright {
-  font-family: Alexandria;
-  font-size: 16px;
+  font-family: DM Sans;
+  font-size: 14px;
   font-weight: 600;
-  line-height: 24px;
-  text-align: left;
+  line-height: 20px;
+  text-align: center;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
@@ -1322,7 +1276,7 @@ a {
     justify-content: space-between;
     align-items: center;
 
-    padding: 37px 171px;
+    padding: 37px 181px;
     align-items: center;
 
     align-items: center;
@@ -1336,17 +1290,17 @@ a {
     gap: 52px;
   }
   .footer-text {
-    font-family: Alexandria;
+    font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-
+    text-align: left;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
   }
 
   .footer-copyright {
-    font-family: Alexandria;
+    font-family: DM Sans;
     font-size: 16px;
     font-weight: 600;
     line-height: 24px;
@@ -1361,35 +1315,38 @@ a {
   padding: 100px 20px 40px;
   background: #fffefb;
 }
-
+.padding-top {
+  padding-top: 20px;
+}
 .policy-terms-texts {
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
+  text-align: justify;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
   color: #303030;
 }
 .policy-terms-text {
-  font-family: Alexandria;
-  font-size: 18px;
+  font-family: DM Sans;
+  font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  text-align: justified;
+  text-align: justify;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+
   padding-top: 28px;
   color: #303030;
 }
 .policy-terms-text-top {
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 20px;
   font-weight: 700;
   line-height: 28px;
-  text-align: left;
+  text-align: justify;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
@@ -1397,11 +1354,11 @@ a {
   padding-top: 28px;
 }
 .policy-terms-text-one {
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
+  text-align: justify;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
@@ -1412,11 +1369,11 @@ a {
   list-style-type: disc;
   color: #303030;
 
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
+  text-align: justify;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 
@@ -1426,11 +1383,11 @@ a {
   list-style-type: disc;
   color: #303030;
   padding-left: 20px;
-  font-family: Alexandria;
+  font-family: DM Sans;
   font-size: 20px;
   font-weight: 400;
   line-height: 28px;
-  text-align: left;
+  text-align: justify;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
